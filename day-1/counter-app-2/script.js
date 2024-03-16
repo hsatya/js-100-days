@@ -3,8 +3,8 @@ const result = document.querySelector("#result");
 let presentValue = parseInt(result.textContent);
 
 // const actions = {
-//   inc: () => presentValue++,
-//   subs: () => presentValue--,
+//   inc: ++presentValue,
+//   subs: --presentValue,
 //   reset: () => (presentValue = 0),
 // };
 
