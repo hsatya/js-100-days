@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+  background-color: rgb(80, 80, 182);
+  color: white;
+}
+
+h2 {
+  text-align: center;
+}
+
+h2 a {
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.container .btn {
+  left: 20%;
+  border: none;
+  padding: 5px;
+  margin: 5px;
+  font-size: 15px;
+  font-weight: 600;
+  background-color: orange;
+  color: white;
+  border: 1px solid white;
+}
+
+.modal {
+  padding: 10px;
+  position: absolute;
+  width: 50%;
+  background-color: antiquewhite;
+  color: black;
+  top: 80px;
+  left: 25%;
+  display: none;
+  /* overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5); */
+}
+
+.modal .clear {
+  position: relative;
+  float: right;
+  top: -50px;
+  right: 5px;
+}
